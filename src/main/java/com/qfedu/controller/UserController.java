@@ -84,7 +84,7 @@ public class UserController {
 
     @RequestMapping("/loginOutUser.do")
     public String loginOutUser(HttpSession session){
-        session.removeAttribute("userCount");
+        session.removeAttribute("userAccount");
         session.removeAttribute(StrUtils.LOGIN_USER);
         return "redirect:/jsp/before/index.jsp";
     }
