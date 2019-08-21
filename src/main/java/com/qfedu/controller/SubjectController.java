@@ -1,6 +1,5 @@
 package com.qfedu.controller;
 
-import com.qfedu.models.CourseModel;
 import com.qfedu.models.CourseVideoModel;
 import com.qfedu.models.SubjectModel;
 import com.qfedu.models.VideoModel;
